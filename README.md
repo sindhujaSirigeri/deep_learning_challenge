@@ -56,8 +56,9 @@ The 'EIN' and 'NAME' columns were removed from the input data, as they were neit
     -   Attempted to optimize the accuracy score by modifying the activation functions.
 
 **Questions:**
+
 **What variable(s) were the target(s) for your model?**
-  -   The target variable for the model was **'IS_SUCCESSFUL'**. This column indicated whether the funding was used effectively, representing the outcome of historical applications in Alphabet Soup.
+ The target variable for the model was **'IS_SUCCESSFUL'**. This column indicated whether the funding was used effectively, representing the outcome of historical applications in Alphabet Soup.
 
 **What variable(s) were the features for your model?**
     
