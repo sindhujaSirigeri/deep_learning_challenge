@@ -56,11 +56,30 @@ The 'EIN' and 'NAME' columns were removed from the input data, as they were neit
     -   Attempted to optimize the accuracy score by modifying the activation functions.
 
 **Questions:**
+**What variable(s) were the target(s) for your model?**
+  -   The target variable for the model was **'IS_SUCCESSFUL'**. This column indicated whether the funding was used effectively, representing the outcome of historical applications in Alphabet Soup.
+
+**What variable(s) were the features for your model?**
+    
+    -   The features for the model were:
+        -   **'APPLICATION_TYPE'**: Alphabet Soup application type.
+        -   **'AFFILIATION'**: Affiliated sector of industry.
+        -   **'CLASSIFICATION'**: Government organization classification.
+        -   **'USE_CASE'**: Use case for funding.
+        -   **'ORGANISATION'**: Organisation type.
+        -   **'STATUS'**: Active status.
+        -   **'INCOME_AMT'**: Income classification.
+        -   **'SPECIAL_CONSIDERATIONS'**: Special considerations for application.
+        -   **'ASK_AMT'**: Funding amount requested.
+        
+**What variable(s) were removed from the input data because they were neither targets nor features?**
+    -   The variables that were removed from the input data were:
+    -   **'EIN'**: An identification number that was not relevant to the prediction.
+    -   **'NAME'**: The organization's name, which did not contribute to predicting success.
 
 **How many neurons, layers, and activation functions were selected for the neural network model, and why?**
 
 -   **Models 1, 2, 3, and 5:** 2 hidden layers, 80 neurons for the first hidden layer, 30 neurons for the second hidden layer, and 1 neuron for the output layer. Activation functions used = relu, tanh, and sigmoid.
-    
     -   The number of hidden layers was dependent on the complexity of the model. In this case, one hidden layer wouldn't have sufficed for the model to learn complex relationships and patterns, so two layers were a good starting point.
     -   The number of neurons for each layer was generally twice the number of features/inputs the model received, making 80 a good starting point. The number of neurons was reduced to 30 in subsequent layers to allow the network to distill and focus on essential features.
     -   The output layer used a sigmoid function as the model was designed to predict a binary result (true/false).
