@@ -83,13 +83,6 @@ The 'EIN' and 'NAME' columns were removed from the input data, as they were neit
 
 **Recommendation:** Given that the model aimed to predict a binary result, a logistic regression model might have been more effective in solving Alphabet Soup's problem statement, as it estimates the probability of an event occurring (such as success or failure) based on a given dataset of independent variables. Logistic regression works well with features that have linear relationships and can also perform adequately with features that do not.
 
-**Libraries Used:**
--   sklearn
--   pandas
--   numpy
--   tensorflow
--   keras_tuner
-
 **Skills Learned:**
 
 -   Deep learning model development and optimization
