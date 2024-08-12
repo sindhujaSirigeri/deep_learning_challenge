@@ -38,12 +38,20 @@ The 'EIN' and 'NAME' columns were removed from the input data, as they were neit
 
 1.  **The Original Model ('AlphabetSoupCharity.h5').**
     -   Included 43 features and inputs, potentially introducing high variance and low bias for the dataset.
+      ![model 1](https://github.com/user-attachments/assets/6e78dc28-6374-4bf3-81c8-bab98e72d7d0)
+
 2.  **Model 2:**
     -   Attempted to optimize the accuracy score by increasing the number of values for each bin and removing columns.
+      ![model 2](https://github.com/user-attachments/assets/87d6d7a7-9073-4f77-b230-3d070cfce8c8)
+
 3.  **Model 3:**
     -   Attempted to optimize the accuracy score by increasing the number of epochs through which the model iterated.
+    ![model 3](https://github.com/user-attachments/assets/c13b78c6-2d54-4ddf-9144-55ffafc3e7db)
+
 4.  **Model 4:**
     -   Attempted to optimize the accuracy score by increasing the number of hidden layers and neurons.
+    ![model 4](https://github.com/user-attachments/assets/35a8ea78-2711-4d6b-84e0-a00901b06a07)
+
 5.  **Model 5:**
     -   Attempted to optimize the accuracy score by modifying the activation functions.
 
