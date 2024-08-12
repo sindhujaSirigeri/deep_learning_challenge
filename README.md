@@ -4,6 +4,20 @@
 
 **Project Overview:** This project involved developing a binary classifier to predict whether applicants would succeed based on their chances of success in Alphabet Soup's (a non-profit foundation) ventures if funded by Alphabet. The historical data collected from Alphabet, stored in a CSV file, contained information on over 34,000 organizations that had received funding from Alphabet Soup over the years.
 
+**Dataset columns:**
+
+-   **EIN and NAME:** Identification columns
+-   **APPLICATION_TYPE:** Alphabet Soup application type
+-   **AFFILIATION:** Affiliated sector of industry
+-   **CLASSIFICATION:** Government organization classification
+-   **USE_CASE:** Use case for funding
+-   **ORGANISATION:** Organisation type
+-   **STATUS:** Active status
+-   **INCOME_AMT:** Income classification
+-   **SPECIAL_CONSIDERATIONS:** Special considerations for application
+-   **ASK_AMT:** Funding amount requested
+-   **IS_SUCCESSFUL:** Whether the money was used effectively
+
 **Project Results:** This project included two deep-learning models:
 
 **Data Preprocessing:** The target variable was the 'IS_SUCCESSFUL' column, which indicated the outcome of historical applications in Alphabet Soup. The features of the model were:
