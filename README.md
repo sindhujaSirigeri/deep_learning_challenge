@@ -1,6 +1,6 @@
 # deep_learning_challenge
 
-**Deep Learning - Neural Network**
+## Predicting Success of Funding Applications with Deep Learning: A Case Study of Alphabet Soup's Historical Data
 
 **Project Overview:** This project involved developing a binary classifier to predict whether applicants would succeed based on their chances of success in Alphabet Soup's (a non-profit foundation) ventures if funded by Alphabet. The historical data collected from Alphabet, stored in a CSV file, contained information on over 34,000 organizations that had received funding from Alphabet Soup over the years.
 
